@@ -1,0 +1,127 @@
+#TEMA_CENTRAL{
+  padding: 0.7em;
+  font-family: serif;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+body
+{
+  background-color: #E9E9E9;
+}
+
+form{
+  max-width: 70%;
+  padding: 1em;
+  border: solid #C8C8C8 0.5em;
+}
+
+#EDITAR{
+  margin: 5px;
+  background-image: url(img/edit.png);
+  background-size: 100% 100%;
+  width: 2.2em;
+  height: 2.2em;
+  transition: 1s;
+}
+
+#ELIMINAR{
+  margin: 5px;
+  background-image: url(img/delete.png);
+  background-size: 100% 100%;
+  width: 2.2em;
+  height: 2.2em;
+  transition: 1s;
+}
+
+#EDITAR:hover{
+  width: 3em;
+  height: 3em;
+  border: black 2px solid;
+  border-radius: 5px;
+  background-color: #ABBED2;
+  transition:0.5s; 
+}
+
+
+
+#ELIMINAR:hover{
+  width: 3em;
+  height: 3em;
+  border: black 2px solid;
+  border-radius: 5px;
+  background-color: #FF6E6E;
+  transition:0.5s; 
+}
+
+#tr_tabla_encabezado td{
+  background: blue;
+  color: white;
+  padding: 1em 0.5em 1em 0.5em;
+  font-size: 1.2em;
+  font-family: serif;
+}
+
+
+td{
+  text-align: center;
+  border: solid  black;
+}
+
+tr:hover{
+  background-color: #B4C3DB;
+}
+
+#header{
+  background-color: blue;
+  vertical-align: center;
+  color: white;
+  padding: 1em;
+  font-family: serif;
+}
+
+#derecha{
+  float: right;
+}
+
+#btn-salir{
+  color: white;
+  font-family: arial;
+  font-size: 11px;
+  background: #676767;
+  border-radius: 180px;
+}
+
+/* contenedor navbar */
+#navbar{
+  text-align: center;
+  position: inherit;
+  float: left;
+  margin-left: -13.5em;
+  min-width: 15em;
+  max-width: 15em;
+  background-color: #B7EBF4;
+  padding: 3px;
+  transition: 1s;
+}
+
+
+#navbar:hover
+{
+  margin-left: 0px;
+  transition:1s;
+}
+
+/* opciones navbar */
+#op{
+  padding: 1em;
+  margin:2px;
+  max-width: 14em;
+  border: white 5px double;
+  transition:0.5s;
+}
+
+#op:hover{
+  font-size: 22px;
+  transition:0.5s;
+}
